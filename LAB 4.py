@@ -46,7 +46,7 @@ print(f"first feature for constructing the decision tree is: {root}")
 # In[2]:
 
 
-import pandas as pd
+2)import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 data = {
     'age': ['<=30', '<=30', '31…40', '>40', '>40', '>40', '31…40', '<=30', '<=30', '>40', '<=30', '31…40', '31…40', '>40'],
@@ -68,7 +68,7 @@ print("Tree Depth:", tree_depth)
 # In[4]:
 
 
-import matplotlib.pyplot as plt
+3)import matplotlib.pyplot as plt
 from sklearn.tree import plot_tree
 
 # Assuming you have already created and fitted your Decision Tree model (model)
@@ -86,7 +86,7 @@ plt.show()
 # In[ ]:
 
 
-# Import the necessary libraries
+4)# Import the necessary libraries
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
@@ -121,7 +121,7 @@ plt.show()
 # In[ ]:
 
 
-# Import the necessary libraries
+5)# Import the necessary libraries
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
@@ -153,7 +153,7 @@ plt.title("Decision Tree")
 plt.show()
 
 
-# In[ ]:
+
 
 
 
